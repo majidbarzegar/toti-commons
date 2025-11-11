@@ -22,6 +22,7 @@
     <modules>
         <module>common-exception</module>
         <module>common-dto</module>
+        <module>common-model</module>
     </modules>
 
     <dependencyManagement>
