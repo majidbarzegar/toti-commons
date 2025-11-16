@@ -17,10 +17,17 @@ public class ResponseDto<R> {
     private MessageDto messageDto;
 
 
+    public static <R> ResponseDto<R> success(R result) {
+        return new ResponseDto<>(
+                result,
+                new MessageDto(null, null, MessageType.SUCCESS)
+        );
+    }
+
     public static <R> ResponseDto<R> success(R result, String text) {
         return new ResponseDto<>(
                 result,
-                new MessageDto(200, text, MessageType.SUCCESS)
+                new MessageDto(null, text, MessageType.SUCCESS)
         );
     }
 

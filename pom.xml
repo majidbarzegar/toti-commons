@@ -10,19 +10,21 @@
     </parent>
     <groupId>com.totishop</groupId>
     <artifactId>commons</artifactId>
-    <version>0.0.1-RELEASE</version>
+    <version>${commons.version}</version>
     <packaging>pom</packaging>
     <name>commons</name>
     <description>Toti shop commons</description>
 
     <properties>
         <java.version>25</java.version>
+        <commons.version>0.0.1-RELEASE</commons.version>
     </properties>
 
     <modules>
         <module>common-exception</module>
         <module>common-dto</module>
         <module>common-model</module>
+        <module>common-message</module>
     </modules>
 
     <dependencyManagement>
@@ -30,7 +32,12 @@
             <dependency>
                 <groupId>com.totishop</groupId>
                 <artifactId>common-dto</artifactId>
-                <version>0.0.1-RELEASE</version>
+                <version>${commons.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.totishop</groupId>
+                <artifactId>common-message</artifactId>
+                <version>${commons.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

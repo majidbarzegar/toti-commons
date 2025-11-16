@@ -1,6 +1,7 @@
 package com.totishop.commonexception;
 
 import com.totishop.commondto.ResponseDto;
+import com.totishop.commonmessage.MessageService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,7 +10,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import static com.totishop.commonexception.CommonMessage.SERVICE_EXCEPTION;
+import static com.totishop.commonmessage.CommonMessage.SERVICE_EXCEPTION;
+
 
 /**
  * @author : MajidBarzegar(majidbarzegar.a@gmail.com)

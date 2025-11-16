@@ -34,6 +34,12 @@
             <groupId>com.totishop</groupId>
             <artifactId>common-dto</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.totishop</groupId>
+            <artifactId>common-message</artifactId>
+            <version>0.0.1-RELEASE</version>
+        </dependency>
+
     </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-package com.totishop.commonexception;
+package com.totishop.commonmessage;
 
 /**
  * @author : MajidBarzegar(majidbarzegar.a@gmail.com)

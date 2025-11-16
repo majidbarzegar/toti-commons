@@ -1,6 +1,7 @@
 package com.totishop.commonexception;
 
 
+import com.totishop.commonmessage.Message;
 import lombok.Getter;
 
 /**
